@@ -1,0 +1,3 @@
+protobuf==3.20.0
+grpcio-tools==1.66.1
+pymilvus==2.4.6
