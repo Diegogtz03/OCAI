@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/pg-adapter": "^1.5.3",
+    "@types/pg": "^8.11.10",
+    "next": "14.2.14",
+    "next-auth": "^4.24.8",
+    "pg": "^8.13.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.14"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "typescript": "^5",
