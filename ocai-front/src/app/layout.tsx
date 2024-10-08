@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import SessionProvider from "@/components/SessionProvider"
-import { getServerSession } from "next-auth"
+import SessionProvider from "@/components/SessionProvider";
+import { getServerSession } from "next-auth";
+import { Header } from "@/components/Header/Header";
+import { Footer } from "@/components/Footer/Footer";
 
 import "./globals.css";
 
@@ -14,15 +16,15 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const session = await getServerSession()
+  const session = await getServerSession();
 
   return (
     <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+      <body className={`antialiased`}>
         <SessionProvider session={session}>
+          <Header />
           {children}
+          <Footer />
         </SessionProvider>
       </body>
     </html>
