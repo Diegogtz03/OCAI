@@ -7,6 +7,7 @@ export const ChatBox = () => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(message);
@@ -39,36 +40,43 @@ export const ChatBox = () => {
   };
 
   return (
-    <div className="w-fit text-center border-gray-300 border-[1px] rounded-md p-4 shadow-sm min-w-[35rem] min-h-[35rem] max-h-[35rem] relative">
-      <div className="w-full h-full text-center">
-        {/* CHAT INTERACTION */}
-        <div className="flex flex-col space-y-2 overflow-y-auto h-full">
-          {messages.map((message) => (
-            <div key={message.id} className="flex justify-start">
-              {message.role === "user" ? (
-                <div className="flex justify-end">
-                  <p>{message.content}</p>
-                </div>
-              ) : (
-                <div className="flex justify-start">
-                  <p>{message.content}</p>
-                </div>
-              )}
+    <div className="flex flex-col w-fit text-center border-gray-300 border-[1px] rounded-md p-4 shadow-sm min-w-[35rem] max-w-[35rem] min-h-[35rem] max-h-[35rem]">
+      {/* Chat messages */}
+      <div className="flex-1 overflow-y-auto p-4 space-y-4 border-[1px] border-gray-300 rounded-md flex flex-col justify-end">
+        {messages.map((message) => (
+          <div
+            key={message.id}
+            className={`flex ${
+              message.role === "user" ? "justify-end" : "justify-start"
+            }`}
+          >
+            <div
+              className={`max-w-[70%] p-2 rounded-lg ${
+                message.role === "user"
+                  ? "bg-blue-500 text-white"
+                  : "bg-gray-200 text-black"
+              }`}
+            >
+              <p>{message.content}</p>
             </div>
-          ))}
-        </div>
-        <form
-          className="flex justify-center items-center space-x-2 absolute bottom-5 w-full"
-          onSubmit={handleSubmit}
-        >
+          </div>
+        ))}
+      </div>
+
+      {/* Chat input */}
+      <div className="p-4">
+        <form className="flex items-center space-x-2" onSubmit={handleSubmit}>
           <input
             type="text"
             value={message}
-            className="w-full p-2 border border-gray-300 rounded-md max-w-[400px]"
+            className="flex-1 p-2 border border-gray-300 rounded-md"
             placeholder="Talk to OCAI"
             onChange={(e) => setMessage(e.target.value)}
           />
-          <button className="bg-blue-500 text-white p-2 rounded-md">
+          <button
+            type="submit"
+            className="bg-blue-500 text-white p-2 rounded-md"
+          >
             Send
           </button>
         </form>
