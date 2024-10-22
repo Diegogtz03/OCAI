@@ -20,7 +20,7 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`antialiased`}>
+      <body className={`antialiased overflow-hidden`}>
         <SessionProvider session={session}>
           <Header />
           {children}
