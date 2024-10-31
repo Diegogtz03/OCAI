@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import animationDelay from "tailwindcss-animation-delay";
 
 const config: Config = {
   content: [
@@ -12,8 +13,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        wave: {
+          "0%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-3px)" },
+          "100%": { transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        wave: "wave 1.5s infinite",
+      },
     },
   },
-  plugins: [],
+  plugins: [animationDelay],
 };
 export default config;
