@@ -1,0 +1,6 @@
+services:
+  milvus-standalone:
+    image: milvusdb/milvus-standalone:latest
+    ports:
+      - 19530:19530
+    container_name: milvus-standalone
