@@ -60,6 +60,8 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     formatted_request_message = {"message": {"role": 'user', "content": request.message}}
     new_chat_history = chat_history + json.dumps(formatted_request_message)
 
+    print(new_chat_history)
+
     # Send chat history to LLM, get response
     final_prompt = CHAT_PROMPT.format(chatHistory=new_chat_history, services="")
 
@@ -79,7 +81,10 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     formatted_response_message = {"message": {"role": 'assistant', "content": response_message}}
     new_chat_history = chat_history + f", {json.dumps(formatted_response_message)}"
 
-    db.execute(text('UPDATE session SET "chatHistory" = :new_chat_history WHERE id = :id'), {"new_chat_history": new_chat_history, "id": request.chatId})
-    db.commit()
+    try:
+      db.execute(text('UPDATE session SET "chatHistory" = :new_chat_history WHERE id = :id'), {"new_chat_history": new_chat_history, "id": request.chatId})
+      db.commit()
+    except Exception as e:
+      print(e)
 
     return {"message": {"role": "assistant", "content": response_message}, "chatId": request.chatId}
