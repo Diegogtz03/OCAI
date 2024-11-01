@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Message } from "@/interfaces/messages";
+import { Message, ChatResponse } from "@/interfaces/messages";
 import { HistoryList } from "@/components/HistoryList/HistoryList";
 import { ExampleCarrousel } from "@/components/ExampleCarrousel/ExampleCarrousel";
 import { Menu } from "../svg/menu";
@@ -10,6 +10,7 @@ import { NewIcon } from "../svg/new";
 export const ChatBox = () => {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<Message[]>([]);
+  const [chatId, setChatId] = useState<string>("");
   const [isHistoryOpen, setIsHistoryOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -27,34 +28,54 @@ export const ChatBox = () => {
     // If messages are empty, request a new chat and save ID to cookies or something
     e.preventDefault();
     if (message.trim() === "") return;
+    const message_to_send = message;
+
     setMessage("");
+
     setMessages((prevMessages) => [
       ...prevMessages,
       {
         id: Date.now().toString(),
-        content: message,
+        content: message_to_send,
         role: "user",
         createdAt: new Date(),
       },
     ]);
 
-    setTimeout(() => {
+    setTimeout(async () => {
       setIsLoading(true);
 
-      // Add demo response with a delay
-      setTimeout(() => {
-        setMessages((prevMessages) => [
-          ...prevMessages,
-          {
-            id: Date.now().toString(),
-            content: "Hello, how can I help you?",
-            role: "assistant",
-            createdAt: new Date(),
-          },
-        ]);
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        body: JSON.stringify({
+          newChat: messages.length == 0,
+          message: message_to_send,
+          email: "diego_gtz_t@hotmail.com",
+          chatId: chatId,
+        }),
+      });
 
-        setIsLoading(false);
-      }, 500); // 500 milliseconds delay
+      const data: ChatResponse = await response.json();
+
+      if (messages.length == 0) {
+        // Save chat ID to cookies or something
+        // Cookies.set("chatId", data.chatId);
+        setChatId(data.chatId);
+      }
+
+      console.log(data);
+
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        {
+          id: Date.now().toString(),
+          content: data.message.content,
+          role: data.message.role,
+          createdAt: new Date(),
+        },
+      ]);
+
+      setIsLoading(false);
     }, 500); // 500 milliseconds delay
   };
 

@@ -4,3 +4,11 @@ export interface Message {
   role: "user" | "assistant";
   createdAt: Date;
 }
+
+export interface ChatResponse {
+  message: {
+    role: "user" | "assistant";
+    content: string;
+  };
+  chatId: string;
+}
