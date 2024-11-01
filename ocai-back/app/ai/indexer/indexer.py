@@ -1,49 +1,96 @@
 import dotenv
 import os
 import google.generativeai as genai
-from .utils import formatter
+from typing import List, Dict, Any
 from pymilvus import Collection, connections, utility
+from .utils import formatter
 
-# Load environment variables
+# Load environment variables and configure
 dotenv.load_dotenv()
+genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
 
-# Fetch the API key from environment
-api_key = os.getenv('GEMINI_API_KEY')
+# Define schema for Milvus collections
+COLLECTION_SCHEMA = {
+    'fields': [
+        {'name': 'id', 'dtype': 'INT64', 'is_primary': True, 'auto_id': True},
+        {'name': 'embedding', 'dtype': 'FLOAT_VECTOR', 'dim': 768}  # Adjust dimension as needed
+    ]
+}
 
-# Authenticate with the API key
-genai.configure(api_key=api_key)
-
-# Load and format pricing and details data
-formatted_pricing_data = formatter.formatter('pricing', 'ocai-back\app\ai\indexer\utils\info\oci_details.json')
-formatted_details_data = formatter.formatter('details', 'ocai-back\app\ai\indexer\utils\info\oci_pricing.json')
-
-def index_data(data):
-    # Use the 'embed_content' method for embeddings
-    response = genai.embed_content(
-        model="models/text-embedding-004", 
-        content=data,
-        task_type="RETRIEVAL_DOCUMENT"  # Adjust task type if needed
-    )
+def index_data(data: str) -> List[float]:
+    """
+    Generate embeddings for the given text data.
     
-    # Return the embedding vector
-    return response['embedding']
+    Args:
+        data (str): Text content to be embedded
+        
+    Returns:
+        List[float]: Embedding vector
+    """
+    try:
+        response = genai.embed_content(
+            model="models/text-embedding-004",
+            content=data,
+            task_type="RETRIEVAL_DOCUMENT"
+        )
+        return response['embedding']
+    except Exception as e:
+        raise Exception(f"Failed to generate embedding: {str(e)}")
 
-def add_to_milvus(collection_name, data):
-    # Connect to Milvus
-    connections.connect(host=os.getenv('VDB_HOST'), port=os.getenv('VDB_PORT'), db_name=os.getenv('VDB_NAME'), token=os.getenv('VDB_TOKEN'))
+def add_to_milvus(collection_name: str, data: List[str]) -> None:
+    """
+    Add embeddings to Milvus collection.
     
-    # Create a collection if it doesn't exist
-    if not Collection.exists(collection_name):
-        collection = Collection(name=collection_name, schema=your_schema)  # Define your schema
-    else:
-        collection = Collection(name=collection_name)
-    
-    # Iterate over the data and add embeddings to Milvus
-    for item in data:
-        embedding = index_data(item)
-        # Insert the embedding into the collection
-        collection.insert([embedding])
+    Args:
+        collection_name (str): Name of the Milvus collection
+        data (List[str]): List of text data to be embedded and stored
+    """
+    try:
+        # Connect to Milvus
+        connections.connect(
+            host=os.getenv('VDB_HOST'),
+            port=os.getenv('VDB_PORT'),
+            db_name=os.getenv('VDB_NAME'),
+            token=os.getenv('VDB_TOKEN')
+        )
 
-# Example usage
-add_to_milvus('pricing_collection', formatted_pricing_data)
-add_to_milvus('details_collection', formatted_details_data)
+        # Create or get collection
+        if not utility.has_collection(collection_name):
+            collection = Collection(
+                name=collection_name,
+                schema=COLLECTION_SCHEMA
+            )
+        else:
+            collection = Collection(name=collection_name)
+
+        # Process and insert data
+        embeddings = [index_data(item) for item in data]
+        collection.insert([embeddings])
+        
+    except Exception as e:
+        raise Exception(f"Failed to add data to Milvus: {str(e)}")
+    finally:
+        connections.disconnect()
+
+def main():
+    """Initialize the indexing process for pricing and details data."""
+    try:
+        # Load and format data
+        formatted_pricing_data = formatter.formatter(
+            'pricing',
+            'ocai-back/app/ai/indexer/utils/info/oci_details.json'
+        )
+        formatted_details_data = formatter.formatter(
+            'details',
+            'ocai-back/app/ai/indexer/utils/info/oci_pricing.json'
+        )
+
+        # Index data
+        add_to_milvus('pricing_collection', formatted_pricing_data)
+        add_to_milvus('details_collection', formatted_details_data)
+        
+    except Exception as e:
+        raise Exception(f"Indexing process failed: {str(e)}")
+
+if __name__ == "__main__":
+    main()
