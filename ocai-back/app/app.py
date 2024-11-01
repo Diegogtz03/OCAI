@@ -6,10 +6,11 @@ from .database import engine, Base, get_db
 from pydantic import BaseModel
 import uuid
 import google.generativeai as genai
-from .ai.promts import INITIAL_INSTRUCTIONS, CHAT_PROMPT
+from .ai.promts import INITIAL_INSTRUCTIONS, CHAT_PROMPT, RAG_PROMPT
 import dotenv
 import json
 import os
+from .ai.indexer.indexer import search_in_milvus
 
 # Create tables
 Base.metadata.create_all(bind=engine)
@@ -60,10 +61,18 @@ async def chat(request: ChatRequest, db: Session = Depends(get_db)):
     formatted_request_message = {"message": {"role": 'user', "content": request.message}}
     new_chat_history = chat_history + json.dumps(formatted_request_message)
 
-    print(new_chat_history)
+    rag_prompt = RAG_PROMPT.format(chatHistory=new_chat_history)
+
+    model = genai.GenerativeModel('gemini-1.5-flash')
+    response = model.generate_content(rag_prompt)
+    rag_response_text = response.text.strip()
+
+    retrieved_texts = await search_in_milvus("knowledge_base", rag_response_text, top_k=5)
+
+    print(retrieved_texts)
 
     # Send chat history to LLM, get response
-    final_prompt = CHAT_PROMPT.format(chatHistory=new_chat_history, services="")
+    final_prompt = CHAT_PROMPT.format(chatHistory=new_chat_history, services=retrieved_texts)
 
     model = genai.GenerativeModel('gemini-1.5-flash')
 
