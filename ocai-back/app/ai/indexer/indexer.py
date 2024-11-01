@@ -132,15 +132,3 @@ async def search_in_milvus(
             retrieved_texts.append(hit.entity.get("text"))
 
     return retrieved_texts
-
-# Response generation function
-async def generate_response(query_text: str, retrieved_texts: List[str]) -> str:
-    # Combine retrieved texts as context
-    context = "\n".join(retrieved_texts)
-    # Use the generative AI model to generate a response
-    try: 
-        response = model.generate_content(f"Context:\n{context}\n\nQuestion:\n{query_text}\n\nAnswer:")
-        return response.candidates[0].content.parts
-    except Exception as e:
-        print(f"Error generating response: {e}")
-        return "I'm sorry, but I couldn't generate a response at this time."

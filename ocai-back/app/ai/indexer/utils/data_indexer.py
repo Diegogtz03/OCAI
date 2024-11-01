@@ -1,4 +1,4 @@
-# Just run this if you delete the data from knowledge_base!
+# Just run this if you deleted the data from knowledge_base!
 
 import formatter
 from pymilvus import Collection, connections, utility, FieldSchema, DataType, CollectionSchema
