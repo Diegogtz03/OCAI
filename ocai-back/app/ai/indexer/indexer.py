@@ -1,96 +1,146 @@
-import dotenv
-import os
-import google.generativeai as genai
-from typing import List, Dict, Any
-from pymilvus import Collection, connections, utility
+# Import necessary libraries
 from .utils import formatter
+from pymilvus import Collection, connections, utility, FieldSchema, DataType, CollectionSchema
+from pathlib import Path
+from typing import List
+import os
+import asyncio
+import pickle
+import google.generativeai as genai
 
-# Load environment variables and configure
-dotenv.load_dotenv()
-genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
+api_key = os.getenv("GEMINI_API_KEY")  # Changed from GEMMINI_API_KEY
+genai.configure(api_key=api_key)
 
-# Define schema for Milvus collections
-COLLECTION_SCHEMA = {
-    'fields': [
-        {'name': 'id', 'dtype': 'INT64', 'is_primary': True, 'auto_id': True},
-        {'name': 'embedding', 'dtype': 'FLOAT_VECTOR', 'dim': 768}  # Adjust dimension as needed
-    ]
+if not api_key:
+    raise ValueError("GEMINI_API_KEY environment variable is not set")
+genai.configure(api_key=api_key)
+
+generation_config = {
+  "temperature": 1,
+  "top_p": 0.95,
+  "top_k": 40,
+  "max_output_tokens": 256,
+  "response_mime_type": "text/plain",
 }
 
-def index_data(data: str) -> List[float]:
-    """
-    Generate embeddings for the given text data.
-    
-    Args:
-        data (str): Text content to be embedded
-        
-    Returns:
-        List[float]: Embedding vector
-    """
+model = genai.GenerativeModel(
+  model_name="gemini-1.5-flash",
+  generation_config=generation_config,
+)
+
+# Embedding generation functions
+async def generate_embedding(data: str):
     try:
+        # Use synchronous embed_content instead of async version
         response = genai.embed_content(
-            model="models/text-embedding-004",
+            model="models/embedding-001",
             content=data,
             task_type="RETRIEVAL_DOCUMENT"
         )
-        return response['embedding']
+        return response["embedding"]
     except Exception as e:
-        raise Exception(f"Failed to generate embedding: {str(e)}")
+        print(f"Error generating embedding: {e}")
+        return None
 
-def add_to_milvus(collection_name: str, data: List[str]) -> None:
-    """
-    Add embeddings to Milvus collection.
-    
-    Args:
-        collection_name (str): Name of the Milvus collection
-        data (List[str]): List of text data to be embedded and stored
-    """
+async def generate_all_embeddings(data: List[str]) -> List[List[float]]:
+    embeddings = []
+    for item in data:
+        embedding = await generate_embedding(item)
+        if embedding is not None:
+            embeddings.append(embedding)
+    return embeddings
+
+# Milvus connection and data insertion functions (modified)
+def connect_milvus():
+    connections.connect(
+        alias="default",
+        host=os.getenv("VDB_HOST"),
+        port=os.getenv("VDB_PORT"),
+        db_name=os.getenv("VDB_NAME"),
+        token=os.getenv("VDB_TOKEN")
+    )
+
+async def add_to_milvus(
+    collection_name: str,
+    embeddings_data: List[List[float]],
+    text_data: List[str],
+    fields: List[FieldSchema]
+):
+    # Connect to Milvus
+    connect_milvus()
+
+    # Check if collection exists or create it
+    if not utility.has_collection(collection_name):
+        schema = CollectionSchema(fields=fields)
+        collection = Collection(name=collection_name, schema=schema)
+    else:
+        collection = Collection(name=collection_name)
+
+    # Prepare data for insertion (modified to match schema)
+    data = [
+        embeddings_data, # Embeddings
+        text_data       # Text data
+    ]
+
     try:
-        # Connect to Milvus
-        connections.connect(
-            host=os.getenv('VDB_HOST'),
-            port=os.getenv('VDB_PORT'),
-            db_name=os.getenv('VDB_NAME'),
-            token=os.getenv('VDB_TOKEN')
-        )
-
-        # Create or get collection
-        if not utility.has_collection(collection_name):
-            collection = Collection(
-                name=collection_name,
-                schema=COLLECTION_SCHEMA
-            )
-        else:
-            collection = Collection(name=collection_name)
-
-        # Process and insert data
-        embeddings = [index_data(item) for item in data]
-        collection.insert([embeddings])
-        
+        collection.insert(data)
+        print(f"Inserted {len(embeddings_data)} records into '{collection_name}'.")
+        # Build index for faster search
+        index_params = {
+            "metric_type": "L2",
+            "index_type": "IVF_FLAT",
+            "params": {"nlist": 128}
+        }
+        collection.create_index(field_name="embedding", index_params=index_params)
+        collection.load()  # Load the collection after creating index
     except Exception as e:
-        raise Exception(f"Failed to add data to Milvus: {str(e)}")
-    finally:
-        connections.disconnect()
+        print(f"Error inserting data: {e}")
 
-def main():
-    """Initialize the indexing process for pricing and details data."""
-    try:
-        # Load and format data
-        formatted_pricing_data = formatter.formatter(
-            'pricing',
-            'ocai-back/app/ai/indexer/utils/info/oci_details.json'
-        )
-        formatted_details_data = formatter.formatter(
-            'details',
-            'ocai-back/app/ai/indexer/utils/info/oci_pricing.json'
-        )
+# Search function for RAG
+async def search_in_milvus(
+    collection_name: str,
+    query_text: str,
+    top_k: int = 5
+) -> List[str]:
+    # Generate embedding for the query
+    query_embedding = await generate_embedding(query_text)
 
-        # Index data
-        add_to_milvus('pricing_collection', formatted_pricing_data)
-        add_to_milvus('details_collection', formatted_details_data)
-        
+    if query_embedding is None:
+        return []
+
+    # Connect to Milvus
+    connect_milvus()
+
+    # Load the collection
+    collection = Collection(name=collection_name)
+    collection.load()
+
+    # Perform the search
+    search_params = {"metric_type": "L2", "params": {"nprobe": 10}}
+    results = collection.search(
+        data=[query_embedding],
+        anns_field="embedding",
+        param=search_params,
+        limit=top_k,
+        output_fields=["text"]
+    )
+
+    # Extract and return the text data from the results
+    retrieved_texts = []
+    for hits in results:
+        for hit in hits:
+            retrieved_texts.append(hit.entity.get("text"))
+
+    return retrieved_texts
+
+# Response generation function
+async def generate_response(query_text: str, retrieved_texts: List[str]) -> str:
+    # Combine retrieved texts as context
+    context = "\n".join(retrieved_texts)
+    # Use the generative AI model to generate a response
+    try: 
+        response = model.generate_content(f"Context:\n{context}\n\nQuestion:\n{query_text}\n\nAnswer:")
+        return response.candidates[0].content.parts
     except Exception as e:
-        raise Exception(f"Indexing process failed: {str(e)}")
-
-if __name__ == "__main__":
-    main()
+        print(f"Error generating response: {e}")
+        return "I'm sorry, but I couldn't generate a response at this time."
