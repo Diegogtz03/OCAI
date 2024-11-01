@@ -1,5 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, LargeBinary, Boolean
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String, DateTime, LargeBinary, Boolean, ForeignKey
 from database import Base
 
 class Verification_Token(Base):
@@ -47,7 +46,7 @@ class Session(Base):
   __tablename__ = "session"
 
   id = Column(String, primary_key=True)
-  userId = relationship("Session", foreign_keys='Users.id')
+  userId = Column(Integer)
   chatHistory = Column(LargeBinary)
   active = Column(Boolean)
   result = Column(LargeBinary)
