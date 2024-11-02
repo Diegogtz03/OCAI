@@ -1,0 +1,4046 @@
+{
+    "pricing-ai": {
+        "Anomaly Detection Training": [
+            {
+                "Number of calls": "Training is free up to a total of 100M data points (product of signals and time stamps) per region per month. Customer can file a service request ticket to increase this training limit.",
+                "Price": "$0.00 (Always Free Tier)",
+                "Tier limit": "Only for model training purposes"
+            }
+        ],
+        "Data Science Jobs": [
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 OCPU",
+                "Comparison Price (/vCPU)*": "$0.01",
+                "Unit Price": "$0.01",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X7",
+                "Comparison Price (/vCPU)*": "$0.0319",
+                "Unit Price": "$0.0638",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - OCPU",
+                "Comparison Price (/vCPU)*": "$0.0125",
+                "Unit Price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - OCPU",
+                "Comparison Price (/vCPU)*": "$0.0125",
+                "Unit Price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Optimized - X9",
+                "Comparison Price (/vCPU)*": "$0.027",
+                "Unit Price": "$0.054",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Optimized - X9 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X9",
+                "Comparison Price (/vCPU)*": "$0.02",
+                "Unit Price": "$0.04",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X9 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "VM.GPU2.1 (NVIDIA P100)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$1.275",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU3.x (NVIDIA V100 Tensor Core \u2013 16 GB)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.95",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU.H100.8",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$10.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU2.2 (2 x NVIDIA P100)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$1.275",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU3.8 (8 x NVIDIA V100 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.95",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU4.8 (8 x NVIDIA A100 40 GB Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$3.05",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU.A100-v2.8 (8x NVIDIA A100 80GB Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$4.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPUA10.4 (4 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU.A10.1 (1 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU.A10.2 (2 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "Block Volume Storage",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0255",
+                "Unit": "GB storage capacity/month"
+            },
+            {
+                "Service": "Block Volume Performance Units",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0017",
+                "Unit": "Performance units per GB / month (10 VPUs at $0.017 for balanced performance)"
+            },
+            {
+                "Service": "Block Volume Performance Units",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0017",
+                "Unit": "Performance units per GB / month (10 VPUs at $0.017 for balanced performance)"
+            },
+            {
+                "Service": "Object Storage - Storage",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0255",
+                "Unit": "Gigabyte storage capacity per month"
+            }
+        ],
+        "Data Science Model Catalog Storage": [
+            {
+                "Service": "Object Storage - Storage",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0255",
+                "Unit": "Gigabyte storage capacity per month"
+            }
+        ],
+        "Data Science Model Deployment": [
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 OCPU",
+                "Comparison Price (/vCPU)*": "$0.01",
+                "Unit Price": "$0.01",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - OCPU",
+                "Comparison Price (/vCPU)*": "$0.0125",
+                "Unit Price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - OCPU",
+                "Comparison Price (/vCPU)*": "$0.0125",
+                "Unit Price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X9",
+                "Comparison Price (/vCPU)*": "$0.02",
+                "Unit Price": "$0.04",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X9 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Optimized - X9",
+                "Comparison Price (/vCPU)*": "$0.027",
+                "Unit Price": "$0.054",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Optimized - X9 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X7",
+                "Comparison Price (/vCPU)*": "$0.0319",
+                "Unit Price": "$0.0638",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "VM.GPU2.1 (NVIDIA P100)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$1.275",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU3.x (NVIDIA V100 Tensor Core \u2013 16 GB)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.95",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU.H100.8",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$10.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU2.2 (2 x NVIDIA P100)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$1.275",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU3.8 (8 x NVIDIA V100 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.95",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU4.8 (8 x NVIDIA A100 40 GB Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$3.05",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU.A100-v2.8 (8x NVIDIA A100 80GB Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$4.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPUA10.4 (4 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU.A10.1 (1 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU.A10.2 (2 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "Load Balancer Base",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0113",
+                "Unit": "Load Balancer hour"
+            },
+            {
+                "Service": "Load Balancer Bandwidth",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0001",
+                "Unit": "Mbps per hour"
+            },
+            {
+                "Service": "Block Volume Storage",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0255",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Block Volume Performance Units",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0017",
+                "Unit": "Performance units per GB / month (10 VPUs at $0.017 for balanced performance)"
+            }
+        ],
+        "Data Science Notebook Sessions": [
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 OCPU",
+                "Comparison Price (/vCPU)*": "$0.01",
+                "Unit Price": "$0.01",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X7",
+                "Comparison Price (/vCPU)*": "$0.0319",
+                "Unit Price": "$0.0638",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - OCPU",
+                "Comparison Price (/vCPU)*": "$0.0125",
+                "Unit Price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - OCPU",
+                "Comparison Price (/vCPU)*": "$0.0125",
+                "Unit Price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X9",
+                "Comparison Price (/vCPU)*": "$0.02",
+                "Unit Price": "$0.04",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Standard - X9 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Optimized - X9",
+                "Comparison Price (/vCPU)*": "$0.027",
+                "Unit Price": "$0.054",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Virtual Machine Optimized - X9 - Memory",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "VM.GPU2.1 (NVIDIA P100)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$1.275",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU3.x (NVIDIA V100 Tensor Core - 16 GB)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.95",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU.H100.8",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$10.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU2.2 (2 x NVIDIA P100)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$1.275",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU3.8 (8 x NVIDIA V100 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.95",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU4.8 (8 x NVIDIA A100 40 GB Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$3.05",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPU.A100-v2.8 (8x NVIDIA A100 80GB Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$4.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "BM.GPUA10.4 (4 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU.A10.1 (1 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "VM.GPU.A10.2 (2 x NVIDIA A10 Tensor Core)",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$2.00",
+                "Unit": "GPU per hour"
+            },
+            {
+                "Service": "Block Volume Storage",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0255",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Block Volume Performance Units",
+                "Comparison Price (/vCPU)*": "\u2014",
+                "Unit Price": "$0.0017",
+                "Unit": "Performance units per GB/month"
+            }
+        ],
+        "Digital Assistant": [
+            {
+                "Service": "Oracle Digital Assistant Cloud Service",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price (Request)": "$0.0232",
+                "Minimum (Requests per hour)": "250"
+            }
+        ],
+        "Document Understanding": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Custom Training (First 15 Training Hour)",
+                "Unit price": "$0.00",
+                "Unit": "Training Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Custom Training (Greater than 15 Training Hour)",
+                "Unit price": "$1.50",
+                "Unit": "Training Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Custom Document Properties (First  5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Custom Document Properties (Greater than 5,000 Transactions)",
+                "Unit price": "$1.50",
+                "Unit": "1,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Custom Document Extraction (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Custom Document Extraction (Greater than 5,000 Transactions)",
+                "Unit price": "$30.00",
+                "Unit": "1,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - OCR (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - OCR (Greater than 5,000 Transactions)",
+                "Unit price": "$1.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Document Properties - (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Document Properties (Greater than 5,000 Transactions)",
+                "Unit price": "$0.25",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Document Extraction (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Document Understanding - Document Extraction (Greater than 5,000 Transactions)",
+                "Unit price": "$10.00",
+                "Unit": "1,000 transactions"
+            }
+        ],
+        "Language": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Language - Dedicated Inferencing - Healthcare",
+                "Unit price": "$20.00",
+                "Unit": "Inferencing Unit Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure \u2013 Language - Custom Inferencing",
+                "Unit price": "$3.50",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud AI Services - Language - Pre-trained Inferencing (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud AI Services - Language - Pre-trained Inferencing (Greater than 5,000 Transactions)",
+                "Unit price": "$0.25",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Language - Custom Inferencing - Dedicated (First 15 Inferencing Unit Hour)",
+                "Unit price": "$0.00",
+                "Unit": "Inferencing unit hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Language - Custom Inferencing - Dedicated  (Greater than 15 Inferencing Unit Hour)",
+                "Unit price": "$1.50",
+                "Unit": "Inferencing unit hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Language - Custom Training (First 15 Training Hour)",
+                "Unit price": "$0.00",
+                "Unit": "Training hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Language - Custom Training (Greater than 15 Training Hour)",
+                "Unit price": "$1.50",
+                "Unit": "Training hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Language - Text Translation (First 1,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Language - Text Translation (Greater than 1,000 Transactions",
+                "Unit price": "$10.00",
+                "Unit": "1,000 Transactions"
+            }
+        ],
+        "Machine Learning and AI": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Data Labeling - Annotated Data Record (First 1,000 Annotated Data Records per month)",
+                "Unit price": "$0.00",
+                "Unit": "Annotated data record"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Data Labeling - Annotated Data Record (Greater than 1,000 Annotated Data Records per month)",
+                "Unit price": "$0.0002",
+                "Unit": "Annotated data record"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - AI Services - Language - 1,000 Transactions (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - AI Services - Language - 1,000 Transactions (Greater than 5,000 Transactions)",
+                "Unit price": "$0.25",
+                "Unit": "1,000 transactions"
+            }
+        ],
+        "OCI Generative AI": [
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI-\u00a0Large Cohere",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0219",
+                "Unit": "10,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI-\u00a0Small Cohere",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.004",
+                "Unit": "10,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI-\u00a0Embed Cohere",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.001",
+                "Unit": "10,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI-Large Meta",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0075",
+                "Unit": "10,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI - Meta Llama 3.1 405B",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0267",
+                "Unit": "10,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI-Large Cohere - Dedicated",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$24.00",
+                "Unit": "AI Unit Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI-\u00a0Small Cohere - Dedicated",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$6.50",
+                "Unit": "AI Unit Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI-\u00a0Embed Cohere - Dedicated",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$10.90",
+                "Unit": "AI Unit Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud\u00a0Infrastructure Generative AI\u00a0-\u00a0Large Meta - Dedicated",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$12.00",
+                "Unit": "AI Unit Per Hour"
+            }
+        ],
+        "OCI Generative AI Agents": [
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI Agents - Retrieval-Augmented Generation (RAG)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.003",
+                "Unit": "10,000 Transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI Agents - Knowledge Base Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0084",
+                "Unit": "Gigabyte Storage Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Generative AI Agents - Data Ingestion",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0003",
+                "Unit": "10,000 Transactions"
+            }
+        ],
+        "Speech": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Speech (First 5 Transcription Hours)",
+                "Unit price": "$0.00",
+                "Unit": "Transcription Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Speech (Greater than 5 Transcription Hours)",
+                "Unit price": "$0.35",
+                "Unit": "Transcription Hour"
+            }
+        ],
+        "Vision": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Vision - Image Analysis - 1,000 Transactions (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Vision - Image Analysis - 1,000 Transactions (Greater than 5,000 Transactions)",
+                "Unit price": "$0.25",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Vision - OCR - 1,000 Transactions (First 5,000 Transactions)",
+                "Unit price": "$0.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Vision - OCR - 1,000 Transactions (Greater than 5,000 Transactions)",
+                "Unit price": "$1.00",
+                "Unit": "1,000 transactions"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Vision- Custom Training - Training Hour (First 15 Training Hour)",
+                "Unit price": "$0.00",
+                "Unit": "Training hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Vision- Custom Training - Training Hour (Greater than 15 Training Hour)",
+                "Unit price": "$1.50",
+                "Unit": "Training hour"
+            }
+        ]
+    },
+    "pricing-analytics": {
+        "Analytics": [
+            {
+                "Service": "Essbase for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.65645",
+                "Unit price": "$1.3129",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Analytics Cloud - Enterprise",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$80.00",
+                "Unit": "User per month"
+            },
+            {
+                "Service": "Oracle Analytics Cloud - Professional",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$16.00",
+                "Unit": "User per month"
+            },
+            {
+                "Service": "Oracle Analytics Cloud - Professional - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Analytics Cloud - Enterprise - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Analytics Cloud - Professional",
+                "Comparison Price (/vCPU) *": "$0.53765",
+                "Unit price": "$1.0753",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Analytics Cloud - Enterprise",
+                "Comparison Price (/vCPU) *": "$1.0753",
+                "Unit price": "$2.1506",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Analytics Server for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.875",
+                "Unit price": "$1.75",
+                "Unit": "OCPU per hour"
+            }
+        ]
+    },
+    "pricing-compute": {
+        "Bare Metal Instances*": [
+            {
+                "Service": "Compute - Dense I/O - E5 OCPU",
+                "Comparison Price (/vCPU) *": "$0.015",
+                "Unit price": "$0.03",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Compute - Dense I/O - E5 Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.002",
+                "Unit": "Gigabyte Per Hour"
+            },
+            {
+                "Service": "Compute - Dense I/O - E5 NVMe",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0612",
+                "Unit": "NVMe Terabyte Per Hour"
+            },
+            {
+                "Service": "Compute - Standard - E5 - OCPU",
+                "Comparison Price (/vCPU) *": "$0.015",
+                "Unit price": "$0.03",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Compute - Standard - E5 - Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.002",
+                "Unit": "Gigabyte Per Hour"
+            },
+            {
+                "Service": "Compute - HPC - E5*",
+                "Comparison Price (/vCPU) *": "$0.022",
+                "Unit price": "$0.044",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - OCPU",
+                "Comparison Price (/vCPU) *": "$0.0125",
+                "Unit price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Dense I/O - E4 - OCPU",
+                "Comparison Price (/vCPU) *": "$0.0125",
+                "Unit price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Dense I/O - E4 - Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte memory per hour"
+            },
+            {
+                "Service": "Compute - Dense I/O - E4 - NVMe",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0612",
+                "Unit": "NVMe terabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - OCPU",
+                "Comparison Price (/vCPU) *": "$0.0125",
+                "Unit price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 OCPU",
+                "Comparison Price (/vCPU) *": "$0.01",
+                "Unit price": "$0.01",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - X9 - OCPU",
+                "Comparison Price (/vCPU) *": "$0.02",
+                "Unit price": "$0.04",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - X9 - Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Optimized - X9 - OCPU",
+                "Comparison Price (/vCPU) *": "$0.027",
+                "Unit price": "$0.054",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Optimized - X9 - Memory",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Bare Metal Standard - X7",
+                "Comparison Price (/vCPU) *": "$0.0319",
+                "Unit price": "$0.0638",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Bare Metal Dense I/O - X7",
+                "Comparison Price (/vCPU) *": "$0.06375",
+                "Unit price": "$0.1275",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Bare Metal Standard - HPC - X7",
+                "Comparison Price (/vCPU) *": "$0.0375",
+                "Unit price": "$0.075",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "GPU - Accelerated Compute": [
+            {
+                "Shape": "BM.GPU.H100.8",
+                "GPUs": "8x NVIDIA H100 80GB Tensor Core",
+                "Architecture": "Hopper",
+                "Network": "8x2x200 Gb/sec RDMA",
+                "GPU Price Per Hour *": "$10.00"
+            },
+            {
+                "Shape": "BM.GPU.MI300X.8",
+                "GPUs": "8x AMD MI300X 192 GB Matrix Core",
+                "Architecture": "CDNA 3",
+                "Network": "8x1x400 Gb/sec RDMA",
+                "GPU Price Per Hour *": "$6.00"
+            },
+            {
+                "Shape": "BM.GPU.A100-v2.8",
+                "GPUs": "8x NVIDIA A100 80GB Tensor Core",
+                "Architecture": "Ampere",
+                "Network": "8x2x100 Gb/sec RDMA",
+                "GPU Price Per Hour *": "$4.00"
+            },
+            {
+                "Shape": "BM.GPU.L40S.4",
+                "GPUs": "4x NVIDIA L40S 48GB",
+                "Architecture": "Ada Lovelace",
+                "Network": "2x1x400 Gb/sec RDMA",
+                "GPU Price Per Hour *": "$3.50"
+            },
+            {
+                "Shape": "BM.GPU4.8",
+                "GPUs": "8x NVIDIA A100 40GB Tensor Core",
+                "Architecture": "Ampere",
+                "Network": "8x2x100 Gb/sec RDMA",
+                "GPU Price Per Hour *": "$3.05"
+            },
+            {
+                "Shape": "VM.GPU.A10.1\n(new)",
+                "GPUs": "1x NVIDIA A10 Tensor Core",
+                "Architecture": "Ampere",
+                "Network": "24 Gb/sec",
+                "GPU Price Per Hour *": "$2.00"
+            },
+            {
+                "Shape": "VM.GPU.A10.2\n(new)",
+                "GPUs": "2x NVIDIA A10 Tensor Core",
+                "Architecture": "Ampere",
+                "Network": "48 Gb/sec",
+                "GPU Price Per Hour *": "$2.00"
+            },
+            {
+                "Shape": "BM.GPU.A10.4",
+                "GPUs": "4x NVIDIA A10 Tensor Core",
+                "Architecture": "Ampere",
+                "Network": "2x50 Gb/sec",
+                "GPU Price Per Hour *": "$2.00"
+            },
+            {
+                "Shape": "VM.GPU3.1",
+                "GPUs": "1x NVIDIA V100 Tensor Core",
+                "Architecture": "Volta",
+                "Network": "4 Gb/sec",
+                "GPU Price Per Hour *": "$2.95"
+            },
+            {
+                "Shape": "VM.GPU3.2",
+                "GPUs": "2x NVIDIA V100 Tensor Core",
+                "Architecture": "Volta",
+                "Network": "8 Gb/sec",
+                "GPU Price Per Hour *": "$2.95"
+            },
+            {
+                "Shape": "VM.GPU3.4",
+                "GPUs": "4x NVIDIA V100 Tensor Core",
+                "Architecture": "Volta",
+                "Network": "25 Gb/sec",
+                "GPU Price Per Hour *": "$2.95"
+            },
+            {
+                "Shape": "BM.GPU3.8",
+                "GPUs": "8x NVIDIA V100 Tensor Core",
+                "Architecture": "Volta",
+                "Network": "2x 25 Gb/sec",
+                "GPU Price Per Hour *": "$2.95"
+            },
+            {
+                "Shape": "VM.GPU2.1",
+                "GPUs": "1x NVIDIA P100",
+                "Architecture": "Pascal",
+                "Network": "8 Gb/sec",
+                "GPU Price Per Hour *": "$1.275"
+            },
+            {
+                "Shape": "BM.GPU2.2",
+                "GPUs": "2x NVIDIA P100",
+                "Architecture": "Pascal",
+                "Network": "2x 25 Gb/sec",
+                "GPU Price Per Hour *": "$1.275"
+            }
+        ],
+        "Legacy Compute Instances*": [
+            {
+                "Service": "Compute - Virtual Machine Standard - X5",
+                "Comparison Price (/vCPU) *": "$0.0319",
+                "Unit price": "$0.0638",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Bare Metal Standard - X5",
+                "Comparison Price (/vCPU) *": "$0.0319",
+                "Unit price": "$0.0638",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E2",
+                "Comparison Price (/vCPU) *": "$0.015",
+                "Unit price": "$0.03",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "Operating Systems": [
+            {
+                "Operating Systems": "Oracle Linux 6/7*",
+                "Unit Price (OCPU per hour)": "Free"
+            },
+            {
+                "Operating Systems": "CentOS 6.x/7.x",
+                "Unit Price (OCPU per hour)": "Free"
+            },
+            {
+                "Operating Systems": "Ubuntu 14.x/16.x",
+                "Unit Price (OCPU per hour)": "Free"
+            },
+            {
+                "Operating Systems": "Compute - Windows OS**\n\nServer 2016 Standard and Datacenter\nServer 2012 R2 Standard and Datacenter\nServer 2012 Standard and Datacenter\nServer 2008 R2 Standard, Enterprise and Datacenter",
+                "Unit Price (OCPU per hour)": "$0.092"
+            }
+        ],
+        "Virtual machine instances*": [],
+        "Secure Desktops": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Secure Desktop",
+                "Unit price": "$20.00",
+                "Unit": "Desktop per Month"
+            }
+        ]
+    },
+    "pricing-containers": {
+        "Cloud Infrastructure Kubernetes Engine": [
+            {
+                "Service": "Oracle Cloud Infrastructure Kubernetes Engine - Enhanced Cluster",
+                "Unit price": "$0.10",
+                "Unit": "Cluster per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Kubernetes Engine - Virtual Node",
+                "Unit price": "$0.015",
+                "Unit": "Virtual node per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Kubernetes Engine - Basic Cluster",
+                "Unit price": "Free",
+                "Unit": ""
+            }
+        ],
+        "Container Instances*": [
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 OCPU",
+                "Unit price": "$0.01",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute \u2013 Ampere A1 \u2013 Memory",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - OCPU",
+                "Unit price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E4 - Memory",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - OCPU",
+                "Unit price": "$0.025",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Compute - Standard - E3 - Memory",
+                "Unit price": "$0.0015",
+                "Unit": "Gigabyte per hour"
+            }
+        ],
+        "Functions": [
+            {
+                "Service": "Invocation - First 2 million per month",
+                "Unit price": "Free",
+                "Unit": "Function invocation"
+            },
+            {
+                "Service": "Invocation - Over 2 million per month",
+                "Unit price": "US$0.0000002",
+                "Unit": "Function invocation"
+            },
+            {
+                "Service": "Execution Time - First 400,000 per month",
+                "Unit price": "Free",
+                "Unit": "Gigabyte memory-seconds"
+            },
+            {
+                "Service": "Execution Time - Over 400,000 per month",
+                "Unit price": "US$0.00001417",
+                "Unit": "Gigabyte memory-seconds"
+            }
+        ]
+    },
+    "pricing-data-lake": {
+        "Big Data (Oracle Distribution of Hadoop)": [
+            {
+                "Service (Oracle Distribution of Hadoop)": "Oracle Big Data Service - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.0075",
+                "Unit price": "$0.015",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service (Oracle Distribution of Hadoop)": "Oracle Cloud SQL - Compute Capacity",
+                "Comparison Price (/vCPU) *": "$0.05375",
+                "Unit price": "$0.1075",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "Big Data (Cloudera Distribution of Hadoop)": [
+            {
+                "Service (Cloudera Distribution of Hadoop)": "Oracle Big Data Service - Compute - Standard",
+                "Comparison Price (/vCPU) *": "$0.0672",
+                "Unit price": "$0.1344",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service (Cloudera Distribution of Hadoop)": "Oracle Big Data Service - Compute - Dense I/O",
+                "Comparison Price (/vCPU) *": "$0.107",
+                "Unit price": "$0.214",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service (Cloudera Distribution of Hadoop)": "Oracle Big Data Service - Compute - HPC",
+                "Comparison Price (/vCPU) *": "$0.0768",
+                "Unit price": "$0.1536",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service (Cloudera Distribution of Hadoop)": "Oracle Cloud SQL - Compute Capacity",
+                "Comparison Price (/vCPU) *": "$0.05375",
+                "Unit price": "$0.1075",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "Data Flow": [
+            {
+                "Service": "Oracle Cloud Infrastructure Data Flow",
+                "Unit price": "Free",
+                "Unit": "OCPU per hour"
+            }
+        ]
+    },
+    "pricing-dev-services": {
+        "APEX Application Development": [
+            {
+                "Service": "Oracle APEX Application Development - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle APEX Application Development - Free",
+                "Comparison Price (/vCPU) *": "$0.00",
+                "Unit price": "$0.00",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Exadata Storage - Free",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Terabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle APEX Application Development",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Exadata Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$118.40",
+                "Unit": "Terabyte storage capacity per month"
+            }
+        ],
+        "Blockchain Platform": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Blockchain Platform Cloud Service - Standard",
+                "Comparison Price (/vCPU) *": "$0.1075",
+                "Unit price": "$0.215",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Blockchain Platform Cloud Service - Enterprise",
+                "Comparison Price (/vCPU) *": "$0.21505",
+                "Unit price": "$0.4301",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Blockchain Platform Cloud Service - Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$70.40",
+                "Unit": "Terabyte storage capacity per month"
+            }
+        ],
+        "DevOps": [
+            {
+                "Service": "Oracle Cloud Infrastructure DevOps",
+                "Unit price": "No additional charge",
+                "Additional Details": "There is no charge for executing a pipeline with OCI DevOps. For CI builds, customers are charged only for the OCPU and memory used by build runner instances. Deployment pipelines to OCI compute resources are free."
+            }
+        ],
+        "Media Flow": [
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.001",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.002",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.003",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.003",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.004",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.01",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.015",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.018",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H264 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.036",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.003",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.004",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.007",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.008",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.01",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.015",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.036",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.04",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - VP8 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.05",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.005",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.007",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.012",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.01",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.02",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.03",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.026",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.05",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Standard - H265VP9 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.063",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.002",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.003",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.004",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.004",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.005",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.012",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.018",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.02",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H264 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.04",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.005",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.006",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.008",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.012",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.015",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.018",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.048",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.05",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - VP8 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.06",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed \u2013 H265VP9 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.006",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.008",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.015",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.012",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.025",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.036",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.05",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.06",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Speed - H265VP9 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.075",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.003",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.004",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.005",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.005",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.006",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.015",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.024",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.03",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H264 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.05",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.006",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.008",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.01",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.015",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.018",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.02",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.054",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.06",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - VP8 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.07",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality \u2013 H265VP9 - SD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.03",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - SD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.045",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - SD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.06",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - HD - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.06",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - HD - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.09",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - HD - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.12",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - 4k - Below 30fps - Minute of Output Media Content",
+                "Unit price": "$0.12",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - 4k - Above 30fps and Below 60fps - Minute of Output Media Content",
+                "Unit price": "$0.18",
+                "Unit": "Minute of output media content"
+            },
+            {
+                "Service": "Media Services - Media Flow - Quality - H265VP9 - 4k - Above 60fps and Below 120fps - Minute of Output Media Content",
+                "Unit price": "$0.24",
+                "Unit": "Minute of output media content"
+            }
+        ],
+        "Media Streams": [
+            {
+                "Service": "Media Services - Media Streams - GB of Packaged Content",
+                "Unit price": "$0.05",
+                "Unit": "GB of packaged content"
+            }
+        ],
+        "Oracle Backend for Spring Boot and Microservices": [
+            {
+                "Service": "Oracle Backend for Spring Boot and Microservices - Standard Edition - Marketplace",
+                "Unit price": "$0.00",
+                "Unit": "Each"
+            }
+        ],
+        "Tuxedo": [
+            {
+                "Service": "Oracle Tuxedo for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.27165",
+                "Unit price": "$0.5433",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Tuxedo Enterprise Edition for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.40745",
+                "Unit price": "$0.8149",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Tuxedo Mainframe Modernization Runtimes for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.5433",
+                "Unit price": "$1.0866",
+                "Unit": "OCPU Per Hour"
+            }
+        ],
+        "Visual Builder": [
+            {
+                "Service": "Oracle Visual Builder Studio - Additional Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$1.60",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle Visual Builder",
+                "Comparison Price (/vCPU) *": "$0.61825",
+                "Unit price": "$1.2365",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "WebCenter For OCI": [
+            {
+                "Service": "WebCenter Content For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.59945",
+                "Unit price": "$1.1989",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Universal Content Management For Oracle Cloud  Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.39965",
+                "Unit price": "$0.7993",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Imaging For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.3197",
+                "Unit price": "$0.6394",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Enterprise Capture For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.2085",
+                "Unit price": "$0.417",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Enterprise Capture Standard Edition For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.10425",
+                "Unit price": "$0.2085",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Sites For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.3475",
+                "Unit price": "$0.695",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Sites Satellite Server For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.0869",
+                "Unit price": "$0.1738",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Portal For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.4344",
+                "Unit price": "$0.8688",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "WebCenter Forms Recognition For Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.3475",
+                "Unit price": "$0.695",
+                "Unit": "OCPU Per Hour"
+            }
+        ]
+    },
+    "pricing-hybrid-cloud": {
+        "Compute Cloud@Customer": [
+            {
+                "Service": "Oracle Compute Cloud@Customer - Compute - Standard - E5",
+                "Unit price": "$0.03",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Oracle Compute Cloud@Customer - Compute - Standard - E5 - Memory",
+                "Unit price": "$0.002",
+                "Unit": "Gibibyte  Memory Per Hour"
+            },
+            {
+                "Service": "Oracle Compute Cloud@Customer - Block Volume Storage - Balanced",
+                "Unit price": "$0.0425",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            },
+            {
+                "Service": "Oracle Compute Cloud@Customer - Block Volume Storage - Performance",
+                "Unit price": "$0.0595",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            },
+            {
+                "Service": "Oracle Compute Cloud@Customer - File Storage",
+                "Unit price": "$0.30",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            },
+            {
+                "Service": "Oracle Compute Cloud@Customer - Object Storage - Storage",
+                "Unit price": "$0.0255",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            },
+            {
+                "Service": "Oracle Compute Cloud@Customer - Load Balancer",
+                "Unit price": "$0.0113",
+                "Unit": "Load Balancer Hour"
+            }
+        ],
+        "Roving Edge Infrastructure": [
+            {
+                "Service": "Roving Edge Device - RED.2 Compute",
+                "Unit price": "$80.00",
+                "Unit": "Resource Possession Per Day"
+            },
+            {
+                "Service": "Roving Edge Device - RED.2 GPU",
+                "Unit price": "$100.00",
+                "Unit": "Resource Possession Per Day"
+            },
+            {
+                "Service": "Roving Edge Device - RED.2.STG Storage",
+                "Unit price": "$95.00",
+                "Unit": "Resource Possession Per Day"
+            },
+            {
+                "Service": "Roving Edge Device - RED.2 Non-Return Fee",
+                "Unit price": "$25,000.00",
+                "Unit": "Each"
+            },
+            {
+                "Service": "Roving Edge Device - RED.2 Ruggedized Case",
+                "Unit price": "$10.00",
+                "Unit": "Resource Possession Per Day"
+            },
+            {
+                "Service": "Roving Edge Device - Compute Optimized - Ruggedized",
+                "Unit price": "$160.00",
+                "Unit": "Resource possession per day"
+            },
+            {
+                "Service": "Roving Edge Device - Compute Optimized - Standard",
+                "Unit price": "$160.00",
+                "Unit": "Resource possession per day"
+            },
+            {
+                "Service": "Roving Edge Ultra",
+                "Unit price": "$45.00",
+                "Unit": "Resource possession per day"
+            },
+            {
+                "Service": "Roving Edge Ultra Non-Return or Loss Fee",
+                "Unit price": "$35,000.00",
+                "Unit": "Each"
+            },
+            {
+                "Service": "Roving Edge Device - Compute Optimized - Unreturnable/Loss Fee",
+                "Unit price": "$45,000.00",
+                "Unit": "Each"
+            }
+        ]
+    },
+    "pricing-integration": {
+        "API Management": [
+            {
+                "Service": "API Gateway",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$3.00",
+                "Unit": "1 million API calls per month"
+            }
+        ],
+        " Integration": [
+            {
+                "Service": "Oracle Integration Cloud Service - Healthcare",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$1.9355",
+                "Unit": "5,000 Messages Per Hour"
+            },
+            {
+                "Service": "Oracle Integration Cloud Service - Standard",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.6452",
+                "Unit": "5K messages per hour"
+            },
+            {
+                "Service": "Oracle Integration Cloud Service - Standard - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$1.9355",
+                "Unit": "20K messages per hour"
+            },
+            {
+                "Service": "Oracle Integration Cloud Service - Enterprise",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$1.2903",
+                "Unit": "5K messages per hour"
+            },
+            {
+                "Service": "Oracle Integration Cloud Service - Enterprise - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.3226",
+                "Unit": "20K messages per hour"
+            }
+        ],
+        " Data Integration": [
+            {
+                "Service": "Oracle Cloud Infrastructure Data Integration - Workspace Usage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.16",
+                "Unit": "Workspace usage per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Data Integration - Data Processed",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.04",
+                "Unit": "Gigabyte of data processed per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Data Integration - Pipeline Operator Execution",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.30",
+                "Unit": "Execution per hour"
+            }
+        ],
+        " Data Integrator": [
+            {
+                "Service": "Oracle Data Integrator Cloud Service",
+                "Comparison Price (/vCPU) *": "$0.3871",
+                "Unit price": "$0.7742",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Data Integrator Cloud Service - BYOL",
+                "Comparison Price (/vCPU) *": "$0.09675",
+                "Unit price": "$0.1935",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "GoldenGate": [
+            {
+                "Service": "Oracle Cloud Infrastructure - GoldenGate",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - GoldenGate - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Stream Analytics for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.4749",
+                "Unit price": "$0.9498",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "Process Automation": [
+            {
+                "Service": "Oracle Cloud Infrastructure Process Automation - User - Active Process User Per Hour",
+                "Unit price": "$0.10",
+                "Unit": "Active process user per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Process Automation - Execution Pack - Execution Pack Per Month (First Execution Pack Per Month)",
+                "Unit price": "$0.00",
+                "Unit": "Execution pack per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Process Automation - Execution Pack - Execution Pack Per Month (Greater than First Execution Pack Per Month)",
+                "Unit price": "$125.00",
+                "Unit": "Execution pack per month"
+            }
+        ],
+        "Queue": [
+            {
+                "Service": "Oracle Cloud Infrastructure Queue (First 1,000,000 Requests)",
+                "Unit price": "$0.00",
+                "Unit": "1,000,000 requests"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Queue (Greater than  1,000,000 Requests)",
+                "Unit price": "$0.22",
+                "Unit": "1,000,000 requests"
+            }
+        ],
+        "Streaming": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Streaming - Storage",
+                "Unit price": "$0.0002",
+                "Unit": "Gigabyte per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Streaming - PUT or GET",
+                "Unit price": "$0.025",
+                "Unit": "Gigabytes of data transferred"
+            }
+        ],
+        "Service Oriented Architecture (SOA)": [
+            {
+                "Service": "Oracle SOA Suite for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.36155",
+                "Unit price": "$0.7231",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle SOA Suite for Oracle Cloud Infrastructure with B2B Adapter for EDI",
+                "Comparison Price (/vCPU) *": "$0.60355",
+                "Unit price": "$1.2071",
+                "Unit": "OCPU per hour"
+            }
+        ]
+    },
+    "pricing-vmware": {
+        "VMware*": [
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard2.12 - Hourly Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$4.714",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard2.12 - 1 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$3.7144",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard2.12 - 3 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.953",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard3.16 - Hourly Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$5.554",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard3.16 - 1 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$4.2943",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard3.16 - 3 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$3.3522",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base \u2013 BM.Standard.E4.32 - Hourly Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$9.2565",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard.E4.32 - 1 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$6.9223",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard.E4.32 - 3 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$5.2233",
+                "Unit": "Node per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard.E5.48 - Hourly Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$16.6617",
+                "Unit": "Node Per Hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard.E5.48 - 1 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$13.1604",
+                "Unit": "Node Per Hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Base - BM.Standard.E5.48 - 3 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$10.6119",
+                "Unit": "Node Per Hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Expansion - Hourly Commit",
+                "Comparison Price (/vCPU) *": "$0.08025",
+                "Unit price": "$0.1605",
+                "Unit": "OCPU per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Expansion - 1 Year Commit",
+                "Comparison Price (/vCPU) *": "$0.0546",
+                "Unit price": "$0.1092",
+                "Unit": "OCPU per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - Expansion - 3 Year Commit",
+                "Comparison Price (/vCPU) *": "$0.03695",
+                "Unit price": "$0.0739",
+                "Unit": "OCPU per hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - HCX Enterprise - 1 Month Commit",
+                "Comparison Price (/vCPU) *": "$0.0063",
+                "Unit price": "$0.0126",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional OCPUs can be added in quantities of 32, 52, 64 or 128 OCPUs"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.GPU.A10.64 - Monthly Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$16.00",
+                "Unit": "Node Per Hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.GPU.A10.64 - 1 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$13.00",
+                "Unit": "Node Per Hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.GPU.A10.64 - 3 Year Commit",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$11.00",
+                "Unit": "Node Per Hour",
+                "Additional Details": ""
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO2.52 - 1 Month Commit",
+                "Comparison Price (/vCPU) *": "$0.10155",
+                "Unit price": "$0.2031",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 104 vCPUs (52 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO2.52 - Hourly Commit",
+                "Comparison Price (/vCPU) *": "$0.12185",
+                "Unit price": "$0.2437",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 104 vCPUs (52 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO2.52 - 1 Year Commit",
+                "Comparison Price (/vCPU) *": "$0.08125",
+                "Unit price": "$0.1625",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 104 vCPUs (52 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO2.52 - 3 Year Commit",
+                "Comparison Price (/vCPU) *": "$0.066",
+                "Unit price": "$0.132",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 104 vCPUs (52 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.128 - Hourly Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.0975",
+                "Unit price": "$0.195",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 256 vCPUs (128 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.128 - Monthly Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.08125",
+                "Unit price": "$0.1625",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 256 vCPUs (128 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.128 - 1 year Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.065",
+                "Unit price": "$0.13",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 256 vCPUs (128 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.128 - 3 year Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.0528",
+                "Unit price": "$0.1056",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 256 vCPUs (128 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.64 - Hourly Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.12185",
+                "Unit price": "$0.2437",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 128 vCPUs (64 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.64 - Monthly Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.10155",
+                "Unit price": "$0.2031",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 128 vCPUs (64 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.64 - 1 year Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.08125",
+                "Unit price": "$0.1625",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 128 vCPUs (64 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.64 - 3 year Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.066",
+                "Unit price": "$0.132",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 128 vCPUs (64 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.32 - Hourly Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.15235",
+                "Unit price": "$0.3047",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 64 vCPUs (32 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.32 - Monthly Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.12695",
+                "Unit price": "$0.2539",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 64 vCPUs (32 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.32 - 1 year Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.10155",
+                "Unit price": "$0.2031",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 64 vCPUs (32 OCPUs)"
+            },
+            {
+                "Service": "Oracle Cloud VMware Solution - BM.DenseIO.E4.32 - 3 year Commit - OCPU Per Hour",
+                "Comparison Price (/vCPU) *": "$0.0825",
+                "Unit price": "$0.165",
+                "Unit": "OCPU per hour",
+                "Additional Details": "Additional capacity can be added in quantities of 64 vCPUs (32 OCPUs)"
+            }
+        ]
+    },
+    "pricing-networking": {
+        "DNS": [
+            {
+                "Service": "DNS",
+                "Unit price": "$0.85",
+                "Unit": "1,000,000 queries"
+            }
+        ],
+        "FastConnect": [
+            {
+                "Service": "FastConnect 1 Gbps",
+                "Unit price (port hour)": "$0.2125",
+                "Includes": "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+            },
+            {
+                "Service": "FastConnect 10 Gbps",
+                "Unit price (port hour)": "$1.275",
+                "Includes": "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+            },
+            {
+                "Service": "FastConnect 100 Gbps",
+                "Unit price (port hour)": "$10.75",
+                "Includes": "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+            },
+            {
+                "Service": "FastConnect 400 Gbps",
+                "Unit price (port hour)": "$20.00",
+                "Includes": "No separate charges for inbound or outbound data transfer on private VCs. For public VCs, please see the pricing in the \u201cNetworking\u201d section."
+            }
+        ],
+        "Load Balancing": [
+            {
+                "Instance Type": "Oracle Cloud Infrastructure - Load Balancer Base - Load Balancer Hour",
+                "Unit price (per hour)": "$0.0113",
+                "Includes": "Load Balancer Base Instance for Flexible Load Balancer"
+            },
+            {
+                "Instance Type": "Oracle Cloud Infrastructure - Load Balancer Bandwidth - Mbps per hour",
+                "Unit price (per hour)": "$0.0001",
+                "Includes": "Load balancer bandwidth units for Flexible Load Balancer: No separate charges for any data handled at the Oracle Load Balancer tier"
+            },
+            {
+                "Instance Type": "Oracle Cloud Infrastructure Flexible Network Load Balancer",
+                "Unit price (per hour)": "Free",
+                "Includes": ""
+            }
+        ],
+        "Networking": [
+            {
+                "Service": "Inbound Data Transfer",
+                "Unit price": "Free",
+                "Unit": "Gigabyte inbound data transfer per month"
+            },
+            {
+                "Service": "Outbound Data Transfer - Originating in North America, Europe, and UK - First 10 TB / Month",
+                "Unit price": "Free",
+                "Unit": "Gigabyte outbound data transfer per month"
+            },
+            {
+                "Service": "Outbound Data Transfer - Originating in APAC, Japan and South America - First 10 TB / Month",
+                "Unit price": "Free",
+                "Unit": "Gigabyte outbound data transfer per month"
+            },
+            {
+                "Service": "Outbound Data Transfer - Originating in Middle East and Africa - First 10 TB / Month",
+                "Unit price": "Free",
+                "Unit": "Gigabyte outbound data transfer per month"
+            },
+            {
+                "Service": "Outbound Data Transfer - Originating in North America, Europe, and UK - Over 10 TB / Month",
+                "Unit price": "$0.0085",
+                "Unit": "Gigabyte outbound data transfer per month"
+            },
+            {
+                "Service": "Outbound Data Transfer - Originating in APAC, Japan, and South America - Over 10 TB / Month",
+                "Unit price": "$0.025",
+                "Unit": "Gigabyte outbound data transfer per month"
+            },
+            {
+                "Service": "Outbound Data Transfer - Originating in Middle East and Africa - Over 10 TB / Month",
+                "Unit price": "$0.05",
+                "Unit": "Gigabyte outbound data transfer per month"
+            }
+        ]
+    },
+    "pricing-observability": {
+        "Autonomous Linux": [
+            {
+                "Service": "Oracle Cloud Infrastructure \u2013 Autonomous Linux",
+                "Unit price": "Free",
+                "Unit": "NA"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - OS Management Hub",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ],
+        "Email Delivery": [
+            {
+                "Service": "Oracle Cloud Infrastructure Service - Email Delivery (First 3,000 emails)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "\u2014",
+                "Unit": "1,000 emails sent"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Service - Email Delivery (Greater than 3,000 emails)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.085",
+                "Unit": "1,000 emails sent"
+            }
+        ],
+        "Fleet Application Management": [
+            {
+                "Service": "Oracle - Cloud Infrastructure - Fleet Application Management Service (First 25 Managed Resource Per Month)",
+                "Unit price (port hour)": "$0.00",
+                "Includes": "1 Managed Resource Per Month"
+            },
+            {
+                "Service": "Oracle - Cloud Infrastructure - Fleet Application Management Service (Greater than 25 Managed Resource Per Month)",
+                "Unit price (port hour)": "$2.604",
+                "Includes": "1 Managed Resource Per Month"
+            }
+        ],
+        "Full Stack Disaster Recovery": [
+            {
+                "Service": "Oracle Cloud Infrastructure Full Stack Disaster Recovery Service",
+                "Unit price (port hour)": "$0.0032",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Full Stack Disaster Recovery Service",
+                "Unit price (port hour)": "$0.0128",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "Migrations": [
+            {
+                "Service": "Oracle Cloud Migration Service",
+                "Unit price": "Free",
+                "Unit": ""
+            }
+        ],
+        " Observability and Management Platform - Application Performance Monitoring": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Application Performance Monitoring Service - Stack Monitoring - Enterprise Edition",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.38",
+                "Unit": "10 Monitored Resources Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Application Performance Monitoring Service - Stack Monitoring - Standard Edition",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.075",
+                "Unit": "10 monitored resources per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Application Performance Monitoring Service - Synthetic Usage - Free",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "10 monitor runs per hour"
+            },
+            {
+                "Service": "Application Performance Monitoring Service - Tracing Data - Free*",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "1,000 events per hour"
+            },
+            {
+                "Service": "Application Performance Monitoring Service - Tracing Data**",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.65",
+                "Unit": "100,000 events per hour"
+            },
+            {
+                "Service": "Application Performance Monitoring Service - Synthetic Usage***",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.02",
+                "Unit": "10 monitor runs per hour"
+            }
+        ],
+        "Observability and Management Platform - Database Management": [
+            {
+                "Service": "Database Management - Cloud Databases",
+                "Comparison Price (/vCPU) *": "$0.025",
+                "Unit price": "$0.05",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - SQL Watch External DB",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$40.00",
+                "Unit": "Host CPU Core Per Month"
+            },
+            {
+                "Service": "Database Management - External DB",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.05",
+                "Unit": "Host CPU per hour"
+            },
+            {
+                "Service": "Database Management - External DB BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.025",
+                "Unit": "Host CPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Database Management - Autonomous Databases - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.025",
+                "Unit": "ECPU per hour"
+            }
+        ],
+        "Observability and Management Platform - Ops Insights*": [
+            {
+                "Service": "Oracle Cloud Infrastructure Ops Insights for Oracle Autonomous Databases - Basic**",
+                "Comparison Price (/vCPU) *": "Free",
+                "Unit price": "Free",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Ops Insights for Oracle Autonomous Databases -Basic**",
+                "Comparison Price (/vCPU) *": "Free",
+                "Unit price": "Free",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Ops Insights for Cloud Databases",
+                "Comparison Price (/vCPU) *": "$0.0075",
+                "Unit price": "$0.015",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Ops Insights for External Oracle Databases and Host",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.015",
+                "Unit": "Host CPU core per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - MySQL Database - Oracle Ops Insights for MySQL HeatWave",
+                "Comparison Price (/vCPU) *": "$0.0075",
+                "Unit price": "$0.015",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - MySQL Database - Oracle Ops Insights for MySQL HeatWave",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0075",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Ops Insights for Warehouse \u2013 Extract",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.00",
+                "Unit": "Gigabyte per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Ops Insights for Warehouse - Instance",
+                "Comparison Price (/vCPU) *": "$0.26885",
+                "Unit price": "$0.5377",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Ops Insights for Oracle Autonomous Databases - Full",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0075",
+                "Unit": "ECPU Per Hour"
+            }
+        ],
+        "Observability and Management Platform - Logging": [
+            {
+                "Service": "First 10 gigabytes log storage per month",
+                "Comparison Price (/vCPU) *": "Free",
+                "Unit price": "Free",
+                "Unit": "Gigabyte log storage per month"
+            },
+            {
+                "Service": "Over 10 gigabytes log storage per month",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.05",
+                "Unit": "Gigabyte log storage per month"
+            }
+        ],
+        "Observability and Management Platform - Logging Analytics*": [
+            {
+                "Service": "First 10 gigabytes of log storage",
+                "Comparison Price": "Free",
+                "Unit price": "Free",
+                "Unit": ""
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Logging Analytics - Active Storage - Logging Analytics Storage Unit Per Month (First 35 Logging Analytics Storage Unit Per Month)",
+                "Comparison Price": "\u2014",
+                "Unit price": "$372.00",
+                "Unit": "Logging Analytics storage unit per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Logging Analytics - Active Storage - Logging Analytics Storage Unit Per Month (Greater than 35 and less than 103 Logging Analytics Storage Unit Per Month)",
+                "Comparison Price": "\u2014",
+                "Unit price": "$260.40",
+                "Unit": "Logging Analytics storage unit per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Logging Analytics - Active Storage - Logging Analytics Storage Unit Per Month (Greater than 103 Logging Analytics Storage Unit Per Month)",
+                "Comparison Price": "\u2014",
+                "Unit price": "$223.20",
+                "Unit": "Logging Analytics storage unit per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Logging Analytics - Archival Storage - Logging Analytics Storage Unit Per Hour",
+                "Comparison Price": "\u2014",
+                "Unit price": "$0.02",
+                "Unit": "Logging Analytics storage unit per hour"
+            }
+        ],
+        "Observability and Management Platform - Monitoring": [
+            {
+                "Service": "Monitoring - Ingestion - First 500 million datapoints",
+                "Unit price": "Free",
+                "Unit": "Million datapoints"
+            },
+            {
+                "Service": "Monitoring - Ingestion - Over 500 million datapoints",
+                "Unit price": "$0.0025",
+                "Unit": "Million datapoints"
+            },
+            {
+                "Service": "Monitoring - Retrieval - First 1 billion datapoints",
+                "Unit price": "Free",
+                "Unit": "Million datapoints"
+            },
+            {
+                "Service": "Monitoring - Retrieval - Over 1 billion datapoints",
+                "Unit price": "$0.0015",
+                "Unit": "Million datapoints"
+            }
+        ],
+        "Observability and Management Platform - Notifications": [
+            {
+                "Service": "First 1 million delivery operations per month",
+                "Unit price": "Free",
+                "Unit": "Million delivery operations"
+            },
+            {
+                "Service": "Over 1 million delivery operations per month",
+                "Unit price": "$0.60",
+                "Unit": "Million delivery operations"
+            },
+            {
+                "Service": "First 1,000 emails per month",
+                "Unit price": "Free",
+                "Unit": "1,000 emails sent"
+            },
+            {
+                "Service": "Over 1,000 emails per month",
+                "Unit price": "$0.02",
+                "Unit": "1,000 emails sent"
+            }
+        ],
+        "Oracle Java Management Service": [
+            {
+                "Service": "Oracle Java Management Service \u2013 Fleet Management",
+                "Unit price": "Free",
+                "Unit": "Each"
+            }
+        ],
+        "OS Management": [
+            {
+                "Service": "Oracle Cloud Infrastructure \u2013 OS Management",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ],
+        "OS Management Hub": [
+            {
+                "Service": "Oracle Cloud Infrastructure - OS Management Hub",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ]
+    },
+    "pricing-open-source": {
+        "Cache with Redis*": [
+            {
+                "Service": "Oracle Cloud Infrastructure Cache with Redis - Low Memory (up to 10 GB per node)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0194",
+                "Unit": "Redis Memory Gigabyte Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Cache with Redis - High Memory (over 10 GB per node)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0136",
+                "Unit": "Redis Memory Gigabyte Per Hour"
+            }
+        ],
+        "Database with PostgreSQL": [
+            {
+                "Service": "Oracle Cloud Infrastructure Database with PostgreSQL - X86",
+                "Unit price": "$0.098",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Database Optimized Storage - Gigabyte Storage Capacity Per Month",
+                "Unit price": "$0.072",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            }
+        ],
+        "MySQL HeatWave": [
+            {
+                "Service": "MySQL Database - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0366",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "MySQL Database\u2014Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.04",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "MySQL Database\u2014Backup Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.04",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "MySQL Database - Outbound Data Transfer - Inter OCI Region",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.04",
+                "Unit": "Gigabyte Outbound Data Transfer Per Month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - HeatWave",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.011",
+                "Unit": "HeatWave capacity per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - HeatWave - Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.02",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            }
+        ],
+        "MySQL HeatWave - Free Tier": [
+            {
+                "Service": "MySQL Database - ECPU - Free",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure HeatWave - Free",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "HeatWave Capacity Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure HeatWave - Storage - Free",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            },
+            {
+                "Service": "MySQL Database - Storage - Free",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            },
+            {
+                "Service": "MySQL Database - Backup Storage - Free",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            }
+        ],
+        "MySQL HeatWave on AWS": [
+            {
+                "Service": "MySQL HeatWave - AWS",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.049",
+                "Unit": "HeatWave capacity per hour"
+            },
+            {
+                "Service": "MySQL HeatWave - AWS - Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.03",
+                "Unit": "Gigabyte Storage Capacity Per Month"
+            },
+            {
+                "Service": "MySQL Database - AWS - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.049",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "MySQL Database - AWS - Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.132",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "MySQL Database - AWS - Backup Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0476",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "MySQL Database - AWS - Ingress private endpoint",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0214",
+                "Unit": "Endpoint Per Hour"
+            },
+            {
+                "Service": "MySQL Database - AWS - Egress private endpoint",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0106",
+                "Unit": "Endpoint Per Hour"
+            },
+            {
+                "Service": "MySQL Database - AWS - Private inbound and outbound network traffic",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0086",
+                "Unit": "Gigabyte (GB) of Data Transferred"
+            },
+            {
+                "Service": "MySQL Database - AWS - Outbound Data Transfer - Inter AWS Region",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0504",
+                "Unit": "Gigabyte of data transferred"
+            },
+            {
+                "Service": "MySQL Database - AWS - Outbound Data Transfer - To Internet",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0911",
+                "Unit": "Gigabyte of data transferred"
+            }
+        ],
+        "Search Service With OpenSearch": [
+            {
+                "Service": "Oracle Cloud Infrastructure Search with OpenSearch HA",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.25",
+                "Unit": "Node per hour"
+            }
+        ]
+    },
+    "pricing-oracle-databases": {
+        "Autonomous Database": [
+            {
+                "Service": "Oracle Autonomous Data Warehouse - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.336",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.336",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - ECPU - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - ECPU - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Dedicated - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.336",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Dedicated - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.336",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Dedicated - ECPU - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Dedicated - ECPU - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Dedicated",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Dedicated",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Dedicated - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Dedicated - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU Per Hour"
+            },
+            {
+                "Service": "Oracle Autonomous Database - Developer",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0391",
+                "Unit": "Instance per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Database Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0244",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle Globally Distributed Autonomous Transaction Processing - Dedicated",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.3864",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Globally Distributed Autonomous Transaction Processing - Dedicated - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0928",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Globally Distributed Autonomous Data Warehouse - Dedicated",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.3864",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Globally Distributed Autonomous Data Warehouse - Dedicated - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0928",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Autonomous Database Storage for Transaction Processing",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.1156",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Database Oracle Exadata Infrastructure - Base System",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$10.7527",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Exadata Cloud Infrastructure - Quarter Rack - X9M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$14.5162",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Exadata Cloud Infrastructure - Database Server - X9M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Exadata Cloud Infrastructure - Storage Server - X9M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Database Server - X8M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Storage Server - X8M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Dedicated - Developer",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Instance per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Dedicated - Developer",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Instance per hour"
+            }
+        ],
+        "Autonomous JSON Database": [
+            {
+                "Service": "Oracle Autonomous JSON Database - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Autonomous JSON Database",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing\u2014Exadata Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$118.40",
+                "Unit": "Terabyte storage capacity per month"
+            }
+        ],
+        "Base Database Service\u2014Virtual Machine": [
+            {
+                "Service": "Oracle Base Database Service on Arm - Enterprise",
+                "Comparison Price (/vCPU) *": "$0.2151",
+                "Unit price": "$0.2151",
+                "Unit": "OCPU per Hour"
+            },
+            {
+                "Service": "Oracle Base Database Service on Arm - High Performance",
+                "Comparison Price (/vCPU) *": "$0.4436",
+                "Unit price": "$0.4436",
+                "Unit": "OCPU per Hour"
+            },
+            {
+                "Service": "Oracle Base Database Service on Arm - Extreme Performance",
+                "Comparison Price (/vCPU) *": "$0.6721",
+                "Unit price": "$0.6721",
+                "Unit": "OCPU per Hour"
+            },
+            {
+                "Service": "Oracle Base Database Service on Arm - BYOL",
+                "Comparison Price (/vCPU) *": "$0.0968",
+                "Unit price": "$0.0968",
+                "Unit": "OCPU per Hour"
+            },
+            {
+                "Service": "Oracle Base Database Service \u2013 Standard",
+                "Comparison Price (/vCPU) *": "$0.1075",
+                "Unit price": "$0.215",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Base Database Service \u2013 Enterprise",
+                "Comparison Price (/vCPU) *": "$0.21505",
+                "Unit price": "$0.4301",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Base Database Service \u2013 High Performance",
+                "Comparison Price (/vCPU) *": "$0.44355",
+                "Unit price": "$0.8871",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Base Database Service \u2013 Extreme Performance",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Base Database Service \u2013 BYOL",
+                "Comparison Price (/vCPU) *": "$0.09675",
+                "Unit price": "$0.1935",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Cloud Service - All Editions - BYOL",
+                "Comparison Price (/vCPU) *": "$0.09675",
+                "Unit price": "$0.1935",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Cloud Service - Enterprise Edition - General Purpose",
+                "Comparison Price (/vCPU) *": "$0.21505",
+                "Unit price": "$0.4301",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Cloud Service - Enterprise Edition Extreme Performance - General Purpose",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Cloud Service - Enterprise Edition Extreme Performance RAC - BYOL",
+                "Comparison Price (/vCPU) *": "$0.09675",
+                "Unit price": "$0.1935",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Cloud Service - Enterprise Edition High Performance - General Purpose",
+                "Comparison Price (/vCPU) *": "$0.44355",
+                "Unit price": "$0.8871",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Cloud Service - Standard Edition - General Purpose",
+                "Comparison Price (/vCPU) *": "$0.1075",
+                "Unit price": "$0.215",
+                "Unit": "OCPU per hour"
+            }
+        ],
+        "Data Safe": [
+            {
+                "Service": "Data Safe for On-Premise Databases and Databases on Compute (First 100 Target Database Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$200.00",
+                "Unit": "Target database per month"
+            },
+            {
+                "Service": "Data Safe for On-Premise Databases and Databases on Compute (Greater than 100 Target Database Per Month and up to 300 Target Database Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$150.00",
+                "Unit": "Target database per month"
+            },
+            {
+                "Service": "Data Safe for On-Premise Databases and Databases on Compute (Greater than 300 Target Database Per Month and up to 500 Target Database Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$100.00",
+                "Unit": "Target database per month"
+            },
+            {
+                "Service": "Data Safe for On-Premise Databases and Databases on Compute (Greater than 500 Target Database Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$50.00",
+                "Unit": "Target database per month"
+            },
+            {
+                "Service": "Data Safe for On-Premises Databases and Databases on Compute - Audit Record Collection over 1 Million records - 10,000 Audit Records per month",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.10",
+                "Unit": "10,000 audit records per target per month"
+            },
+            {
+                "Service": "Data Safe for Database Cloud Service - Audit Record Collection\nOver 1 Million Records - 10,000 Audit records per target per month",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.10",
+                "Unit": "10,000 audit records per target per month"
+            },
+            {
+                "Service": "Data Safe for Database Cloud Service - Each",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Target per month"
+            }
+        ],
+        "Database Autonomous Recovery Service": [
+            {
+                "Service": "Oracle Database Autonomous Recovery Service",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0306",
+                "Unit": "Virtualized GB per month"
+            },
+            {
+                "Service": "Oracle Database Zero Data Loss Autonomous Recovery Service",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.04",
+                "Unit": "Virtualized GB per month"
+            }
+        ],
+        " Database Backup": [
+            {
+                "Service": "Oracle Database Backup Cloud - Object Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0051",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle Database Backup Cloud - Archive Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0005",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Object Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0255",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Archive Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0026",
+                "Unit": "Gigabyte storage capacity per month"
+            }
+        ],
+        "Database Migration": [
+            {
+                "Service": "Oracle Cloud Infrastructure Database Migration - Migration Hour",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.20",
+                "Unit": "Migration hour"
+            }
+        ],
+        "Exadata Cloud@Customer": [
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Exadata Cloud@Customer - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.336",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Exadata Cloud@Customer - ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.336",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Exadata Cloud@Customer - ECPU - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Exadata Cloud@Customer - ECPU - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU per hour"
+            },
+            {
+                "Service": "Exadata Cloud at Customer - Autonomous Transaction Processing - Database",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Exadata Cloud at Customer - Autonomous Data Warehouse - Database",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Exadata Cloud at Customer - Autonomous Transaction Processing - Database OCPU - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Exadata Cloud at Customer - Autonomous Data Warehouse - Database OCPU - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Gen 2 Exadata Cloud at Customer - Database OCPU",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Gen 2 Exadata Cloud at Customer - Database OCPU - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Exadata Cloud at Customer \u2013 Database OCPU",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Database Exadata Cloud at Customer\u2013 Database OCPU - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle Autonomous Transaction Processing - Exadata Cloud@Customer - Developer",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Instance Per Hour"
+            },
+            {
+                "Service": "Oracle Autonomous Data Warehouse - Exadata Cloud@Customer - Developer",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Instance Per Hour"
+            }
+        ],
+        "Exadata Database Service Base System": [
+            {
+                "Service": "Exadata Cloud Infrastructure - Base System",
+                "Unit Price": "$10.7527",
+                "Unit": "Hosted Environment per hour"
+            }
+        ],
+        "Exadata Database Service on Dedicated Infrastructure": [
+            {
+                "Service": "Exadata Database OCPU - Dedicated Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.67205",
+                "Unit price": "$1.3441",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Exadata Database OCPU - Dedicated Infrastructure - BYOL",
+                "Comparison Price (/vCPU) *": "$0.1613",
+                "Unit price": "$0.3226",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Exadata Cloud Infrastructure - Quarter Rack - X9M - Hosted Environment Per Hour",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$14.5162",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Exadata Cloud Infrastructure - Database Server - X9M - Hosted Environment Per Hour",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Exadata Cloud Infrastructure - Storage Server - X9M - Hosted Environment Per Hour",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Database Oracle Exadata Infrastructure - Base System",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$10.7527",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Quarter Rack - X8M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$14.5162",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Database Server - X8M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Storage Server - X8M",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$2.9032",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Quarter Rack - X8",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$14.5162",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Half Rack - X8",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$29.0323",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Full Rack - X8",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$58.0645",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Quarter Rack - X7",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$21.5054",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Half Rack - X7",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$43.0107",
+                "Unit": "Hosted environment per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Oracle Database Exadata Infrastructure - Full Rack - X7",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$86.0215",
+                "Unit": "Hosted environment per hour"
+            }
+        ],
+        "Exadata Database Service on Exascale Infrastructure": [
+            {
+                "Service": "Oracle Exadata Exascale Database ECPU",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.336",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Exadata Exascale Database ECPU - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0807",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Exadata Exascale RDMA Compute Infrastructure",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.025",
+                "Unit": "ECPU Per Hour"
+            },
+            {
+                "Service": "Oracle Exadata Exascale VM Filesystem Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0425",
+                "Unit": "Gigabyte (GB) Storage Capacity Per Month"
+            },
+            {
+                "Service": "Oracle Exadata Exascale Smart Database Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.1156",
+                "Unit": "Gigabyte (GB) Storage Capacity Per Month"
+            },
+            {
+                "Service": "Oracle Exadata Exascale Additional Flash Cache",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0005",
+                "Unit": "Gigabyte (GB) Per Hour"
+            }
+        ],
+        "NoSQL Database": [
+            {
+                "Service": "Oracle NoSQL Database Cloud - Hosted Environment - Hosted Environment Per Month",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$28,796.00",
+                "Unit": "Hosted environment per month"
+            }
+        ],
+        "NoSQL Database Cloud - Provisioned": [
+            {
+                "Service": "Oracle NoSQL Database Cloud - Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.066",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Write",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.1254",
+                "Unit": "Write unit per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Read",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0064",
+                "Unit": "Read unit per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Regional Replicated Write",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.36",
+                "Unit": "Write Unit Per Month"
+            }
+        ],
+        "NoSQL Database Cloud - On-Demand": [
+            {
+                "Service": "Oracle NoSQL Database Cloud - Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.066",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Write - Auto",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$3.135",
+                "Unit": "Write unit per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Read - Auto",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.16",
+                "Unit": "Read unit per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Regional Replicated Write",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.36",
+                "Unit": "Write Unit Per Month"
+            }
+        ],
+        "NoSQL Database Free Tier": [
+            {
+                "Service": "Oracle NoSQL Database Cloud - Storage - Free*",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Write - Free**",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Write unit per month"
+            },
+            {
+                "Service": "Oracle NoSQL Database Cloud - Read - Free***",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Read unit per month"
+            }
+        ]
+    },
+    "industries/payg-services-price-list/": {},
+    "pricing-security": {
+        "Access Governance": [
+            {
+                "Service": "Oracle Access Governance Premium - Workforce User (First 10,000 Workforce Users)",
+                "Unit price": "$3.00",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance Premium - Workforce User (Greater than 10,000 and up to 30,000 Workforce Users)",
+                "Unit price": "$1.13",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance Premium - Workforce User (Greater than 30,000 Workforce Users)",
+                "Unit price": "$0.15",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance Premium - Consumer User",
+                "Unit price": "$0.016",
+                "Unit": "Consumer User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance for Oracle Workloads - Workforce User (First 10,000 Workforce Users)",
+                "Unit price": "$2.00",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance for Oracle Workloads - Workforce User (Greater than 10,000 Workforce Users and up to 30,000 Workforce Users)",
+                "Unit price": "$0.75",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance for Oracle Workloads - Workforce User (Greater than 30,000 Workforce Users)",
+                "Unit price": "$0.10",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance for Oracle Workloads - Consumer User",
+                "Unit price": "$0.016",
+                "Unit": "Consumer User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance for Oracle Cloud Infrastructure - Workforce User (First 100,000 Workforce Users)",
+                "Unit price": "$0.10",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance for Oracle Cloud Infrastructure - Workforce User (Greater than 100,000 Workforce Users)",
+                "Unit price": "$0.005",
+                "Unit": "Workforce User Per Month"
+            },
+            {
+                "Service": "Oracle Access Governance for Oracle Cloud Infrastructure - Workforce User (Greater than 100,000 Workforce Users)",
+                "Unit price": "$0.005",
+                "Unit": "Workforce User Per Month"
+            }
+        ],
+        "Bastion": [
+            {
+                "Service": "Oracle Cloud Infrastructure Bastion",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ],
+        "Certificates": [
+            {
+                "Service": "Oracle Cloud Infrastructure Certificates",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ],
+        "Cloud Guard": [
+            {
+                "Service": "Oracle Cloud Guard",
+                "Unit price": "Free",
+                "Unit": "NA"
+            },
+            {
+                "Service": "Oracle Cloud Guard - Threat Detector - OCI Audit Logs",
+                "Unit price": "Free",
+                "Unit": "NA"
+            },
+            {
+                "Service": "Oracle Cloud Guard Instance Security Standard",
+                "Unit price": "$0.00",
+                "Unit": "Node Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Guard Instance Security Enterprise",
+                "Unit price": "$0.0069",
+                "Unit": "Node Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Guard Instance Security Ad hoc Queries Enterprise (First 950,000 Requests)",
+                "Unit price": "$0.00",
+                "Unit": "Request"
+            },
+            {
+                "Service": "Oracle Cloud Guard Instance Security Ad hoc Queries Enterprise (Greater than 950,000 Requests)",
+                "Unit price": "$0.001",
+                "Unit": "Request"
+            }
+        ],
+        "Identity and Access Management (IAM)": [
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - External User - User Per Month",
+                "Unit price": "$0.016",
+                "Unit": "User per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - Oracle Apps Premium - User Per Month",
+                "Unit price": "$0.25",
+                "Unit": "User per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - Premium - User Per Month",
+                "Unit price": "$3.20",
+                "Unit": "User per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - SMS - 1 SMS Message Sent (First 1,000 SMS Messages Sent)",
+                "Unit price": "$0.00",
+                "Unit": "1 SMS message sent"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - SMS - 1 SMS Message Sent (Greater than 1,000 SMS Messages Sent)",
+                "Unit price": "$0.03",
+                "Unit": "1 SMS message sent"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - Token - Token (First 10,000 Tokens per month)",
+                "Unit price": "$0.00",
+                "Unit": "Token"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - Token - Token (Greater than 10,000 Tokens per month)",
+                "Unit price": "$0.004",
+                "Unit": "Token"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Identity and Access Management - Replication - User Per Month",
+                "Unit price": "$0.004",
+                "Unit": "User per month"
+            }
+        ],
+        "Identity Cloud": [
+            {
+                "Service": "Oracle Identity Cloud Service - Enterprise User",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$3.20",
+                "Unit": ""
+            },
+            {
+                "Service": "Oracle Identity Cloud Service - Consumer User",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.016",
+                "Unit": ""
+            },
+            {
+                "Service": "Oracle Identity Cloud Service - Consumer User - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.004",
+                "Unit": "User per month"
+            },
+            {
+                "Service": "Oracle Identity Cloud Service - Enterprise User - BYOL",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.80",
+                "Unit": "User per month"
+            },
+            {
+                "Service": "Oracle Identity Foundation Cloud Service",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Each"
+            }
+        ],
+        "Key Management": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Dedicated Key Management (Minimum 3 HSM Partitions)",
+                "Unit price": "$1.75",
+                "Unit": "HSM Partition Per Hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - External Key Management",
+                "Unit price": "$3.00",
+                "Unit": "Key version per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Key Management - Private Vault",
+                "Unit price": "$3.724",
+                "Unit": "Virtual Private Vault per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Key Management - Vault - Software protected Keys",
+                "Unit price": "Free",
+                "Unit": ""
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure Key Management - Vault - HSM protected Keys\n(First 20 Key Versions free)",
+                "Unit price": "$0.5334",
+                "Unit": "Key version per month"
+            }
+        ],
+        "Network Firewall": [
+            {
+                "Service": "Oracle Cloud Infrastructure - Network Firewall Instance - Instance Per Hour",
+                "Unit price": "$2.75",
+                "Unit": "Instance per hour"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Network Firewall Data Processing - Gigabyte of Data Processed (First 10240 Gigabytes of Data Processed)",
+                "Unit price": "$0.00",
+                "Unit": "Gigabyte of data processed"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure - Network Firewall Data Processing - Gigabyte of Data Processed (Greater than 10240 Gigabytes of Data Processed)",
+                "Unit price": "$0.01",
+                "Unit": "Gigabyte of data processed"
+            }
+        ],
+        "Secret Management": [
+            {
+                "Service": "Secrets on Oracle Cloud Infrastructure Vault",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ],
+        "Security Zones": [
+            {
+                "Service": "Oracle Cloud Infrastructure Security Zones",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ],
+        "Threat Intelligence": [
+            {
+                "Service": "Oracle Threat Intelligence Service - API Calls",
+                "Unit price": "$0.00",
+                "Unit": "API calls"
+            }
+        ],
+        "Vulnerability Scanning": [
+            {
+                "Service": "Oracle Cloud Infrastructure Vulnerability Scanning Service",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ],
+        "Web Application Firewall (WAF)": [
+            {
+                "Service": "Web Application Firewall - Instance (First one (1) WAF instance Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "Instance per month"
+            },
+            {
+                "Service": "Web Application Firewall - Instance (Greater than one (1) WAF instance Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$5.00",
+                "Unit": "Instance per month"
+            },
+            {
+                "Service": "Web Application Firewall - Requests (First ten (10) million Incoming Requests Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.00",
+                "Unit": "1,000,000 incoming requests per month"
+            },
+            {
+                "Service": "Web Application Firewall - Requests (Greater than ten (10) million Incoming Requests Per Month)",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.60",
+                "Unit": "1,000,000 incoming requests per month"
+            }
+        ],
+        "Zero Trust Packet Routing": [
+            {
+                "Service": "Oracle Cloud Infrastructure Zero Trust Packet Routing",
+                "Unit price": "Free",
+                "Unit": "NA"
+            }
+        ]
+    },
+    "pricing-storage": {
+        "Image and Artifact Storage": [
+            {
+                "Service": "Custom Image Storage",
+                "Unit price": "Same as Object Storage - Standard",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Container Image Storage",
+                "Unit price": "Same as Object Storage - Standard",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Generic Artifact Storage",
+                "Unit price": "Same as Object Storage - Standard",
+                "Unit": "Gigabyte storage capacity per month"
+            }
+        ],
+        "Storage": [
+            {
+                "Service": "Block Volume Storage*",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0255",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Block Volume Performance Units**",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0017",
+                "Unit": "Performance units per gigabyte per month\n\n\n0 VPUs at $0 for lower cost\n10 VPUs at $0.017 for balanced\n20 VPUs at $0.034 for higher performance\n30 VPUs at $0.051 for UHP (VPU/GB=30)\n40 VPUs at $0.068 for UHP (VPU/GB=40)\n50 VPUs at $0.085 for UHP (VPU/GB=50)\n60 VPUs at $0.102 for UHP (VPU/GB=60)\n70 VPUs at $0.119 for UHP (VPU/GB=70)\n80 VPUs at $0.136 for UHP (VPU/GB=80)\n90 VPUs at $0.153 for UHP (VPU/GB=90)\n100 VPUs at $0.170 for UHP (VPU/GB=100)\n110 VPUs at $0.187 for UHP (VPU/GB=110)\n120 VPUs at $0.204 for UHP (VPU/GB=120)"
+            },
+            {
+                "Service": "Object Storage - Infrequent Access",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.01",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Object Storage - Infrequent Access - Retrieval",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.01",
+                "Unit": "Gigabyte storage retrieved per month"
+            },
+            {
+                "Service": "Object Storage - Standard",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0255",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Object Storage - Requests",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0034",
+                "Unit": "10,000 requests per month"
+            },
+            {
+                "Service": "File Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.30",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Oracle Cloud Infrastructure File Storage Service - High Performance Mount Target",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.30",
+                "Unit": "Performance Units Per Gigabyte Per Month\n\n20 Gbps \u2013 20,000 GB $6,000 /Month\n40 Gbps \u2013 40,000 GB $12,000 /Month\n80 Gbps \u2013 80,000 GB $24,000 /Month"
+            },
+            {
+                "Service": "Archive Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0026",
+                "Unit": "Gigabyte storage capacity per month"
+            },
+            {
+                "Service": "Data Transfer Service (HDD)***",
+                "Comparison Price (/vCPU) *": "Free",
+                "Unit price": "Free",
+                "Unit": ""
+            },
+            {
+                "Service": "Data Transfer Service (Appliance)****",
+                "Comparison Price (/vCPU) *": "Free",
+                "Unit price": "Free",
+                "Unit": ""
+            }
+        ],
+        "ZFS Storage": [
+            {
+                "Service": "Oracle ZFS Storage - High Availability - Instance Per Hour",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$1.85",
+                "Unit": "Instance per hour"
+            }
+        ]
+    },
+    "pricing-others": {
+        "Developer Cloud Service": [
+            {
+                "Service": "Oracle Developer Cloud Service - Additional Storage",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$1.60",
+                "Unit": "Gigabyte storage capacity per month"
+            }
+        ],
+        " Edge Services": [
+            {
+                "Service": "Health Checks - Basic",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.30",
+                "Unit": "Endpoints per month"
+            },
+            {
+                "Service": "Health Checks - Premium",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$1.30",
+                "Unit": "Endpoints per month"
+            },
+            {
+                "Service": "DNS Traffic Management",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$4.00",
+                "Unit": "1,000,000 DNS Traffic Management queries"
+            }
+        ],
+        "Hospitality Nor1 Cloud Services": [
+            {
+                "Service": "Oracle Hospitality Nor1 Cloud Service",
+                "Unit price": "N/A",
+                "Unit": "Each"
+            },
+            {
+                "Service": "Oracle Hospitality Nor1 Cloud Service, eStandby Room Upgrade",
+                "Unit price": "$0.40",
+                "Unit": "Upgrade rate"
+            },
+            {
+                "Service": "Oracle Hospitality Nor1 Cloud Service, Checkin Merchandising Room Upgrade",
+                "Unit price": "$0.20",
+                "Unit": "Upgrade rate"
+            },
+            {
+                "Service": "Oracle Hospitality Nor1 Cloud Service, eXpress Room Upgrade",
+                "Unit price": "$0.20",
+                "Unit": "Upgrade rate"
+            },
+            {
+                "Service": "Oracle Hospitality Nor1 Cloud Service, Non-Room Upgrade",
+                "Unit price": "$0.20",
+                "Unit": "Upgrade rate"
+            }
+        ],
+        " Mobile": [
+            {
+                "Service": "Mobile Hub",
+                "Comparison Price (/vCPU) *": "\u2014",
+                "Unit price": "$0.0028",
+                "Unit": "Request per hour: Defined as the number of requests made to Oracle Mobile Hub in an hour at an hourly minimum consumption rate of 500 requests per hour for each instance. A request is defined as any API call made to Oracle Mobile Hub."
+            }
+        ],
+        "Oracle MICROS Simphony, Metered Services": [
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Single-Tenant Edition",
+                "Unit price": "N/A",
+                "Unit": "Each"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Single-Tenant Edition, Environment Fee",
+                "Unit price": "$75,000.00",
+                "Unit": "Instance"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Single-Tenant Edition, Transaction Fee (First 200 Processed Customer Transactions per month)",
+                "Unit price": "N/A",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Single-Tenant Edition, Transaction Fee  (Greater than 200 but less than or equal to 5000 Processed Customer Transactions per month)",
+                "Unit price": "$0.10",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Single-Tenant Edition, Transaction Fee (Greater than 5000 but less than or equal to 15000 Processed Customer Transactions per month)",
+                "Unit price": "$0.08",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Single-Tenant Edition, Transaction Fee (Greater than 15,000 Processed Customer Transactions per month)",
+                "Unit price": "$0.06",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Single-Tenant Edition, Extended Storage 14-36 months",
+                "Unit price": "$10.00",
+                "Unit": "Revenue Center"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Plus Edition",
+                "Unit price": "N/A",
+                "Unit": "Each"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Plus Edition, Revenue Center Fee",
+                "Unit price": "$10.00",
+                "Unit": "Revenue Center"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Plus Edition, Transaction Fee (First 200 Processed Customer Transactions per month)",
+                "Unit price": "N/A",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Plus Edition, Transaction Fee (Greater than 200 but less than or equal to 5000 Processed Customer Transactions per month)",
+                "Unit price": "$0.10",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Plus Edition, Transaction Fee (Greater than 5000 but less than or equal to 15000 Processed Customer Transactions per month)",
+                "Unit price": "$0.08",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Plus Edition, Transaction Fee (Greater than 15000 Processed Customer Transactions per month)",
+                "Unit price": "$0.06",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Plus Edition, Extended Storage 14-36 Months - Revenue Center",
+                "Unit price": "$10.00",
+                "Unit": "Revenue Center"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Essentials Edition",
+                "Unit price": "N/A",
+                "Unit": "Each"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Essentials Edition, Revenue Center Fee",
+                "Unit price": "$10.00",
+                "Unit": "Revenue Center"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Essentials Edition, Transaction Fee (First 200 Processed Customer Transactions per month)",
+                "Unit price": "N/A",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Essentials Edition, Transaction Fee (Greater than 200 but less than or equal to 5000 Processed Customer Transactions per month)",
+                "Unit price": "$0.08",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Essentials Edition, Transaction Fee (Greater than 5000 but less than or equal to 15000 Processed Customer Transactions per month)",
+                "Unit price": "$0.06",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Essentials Edition, Transaction Fee (Greater than 15000 Processed Customer Transactions per month)",
+                "Unit price": "$0.04",
+                "Unit": "Processed Customer Transaction"
+            },
+            {
+                "Service": "Oracle MICROS Simphony Cloud Service, Essentials Edition, Extended Storage 14-36 Months",
+                "Unit price": "$10.00",
+                "Unit": "Revenue Center"
+            }
+        ],
+        "WebLogic Cloud Service": [
+            {
+                "Service": "Oracle WebLogic Server Enterprise Edition for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.12905",
+                "Unit price": "$0.2581",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle WebLogic Suite for Oracle Cloud Infrastructure",
+                "Comparison Price (/vCPU) *": "$0.2323",
+                "Unit price": "$0.4646",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle WebLogic Server Enterprise Edition for Oracle Cloud Infrastructure Container Engine for Kubernetes",
+                "Comparison Price (/vCPU) *": "$0.12905",
+                "Unit price": "$0.2581",
+                "Unit": "OCPU per hour"
+            },
+            {
+                "Service": "Oracle WebLogic Suite for Oracle Cloud Infrastructure Container Engine for Kubernetes",
+                "Comparison Price (/vCPU) *": "$0.2323",
+                "Unit price": "$0.4646",
+                "Unit": "OCPU per hour"
+            }
+        ]
+    }
+}

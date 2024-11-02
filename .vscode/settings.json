@@ -1,0 +1,3 @@
+{
+  "python.analysis.extraPaths": ["./ocai-back/app/ai/indexer/utils"]
+}
